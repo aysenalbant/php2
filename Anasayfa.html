@@ -1,0 +1,60 @@
+<html>
+<head></head><h1><font color="green" align="center">Anasayfa</font></h1>
+<fieldset><legend>Kişisel Bilgiler</legend><input name="ad" type="text" placeholder="Adınız"/><br>
+<input name="soyad" type="text" placeholder="Soyadınız"/><br>
+<input name="points" type="number" placeholder="Yaşınız" min="0" max="150"/><br>
+Doğum Gününüz:<input name="dgunu" type="date" placeholder="Doğum Gününüz" max="1966-05-25" min="2022-12-12"/><br>
+<input name="meslek" type="text" placeholder="Mesleğiniz"/><br> 
+<tr><td>Kadın<input name="cinsiyet" type="radio" value="17"/><br></td></tr>
+<tr><td>Erkek<input name="cinsiyet" type="radio" value="18"/><br></td></tr></fieldset><br>
+<fieldset><legend>Kullanıcı Bilgileri</legend><input name="mail" type="text" placeholder="Mail Adresiniz"/><br>
+<input name="kullanici" type="text" placeholder="Kullanıcı Adınız"/><br>
+<input name="password" type="psw" placeholder="Şifreniz" min="1000" max="12000"/><br>
+<input name="telefon" type="type" placeholder="Telefon Numaranız"/><br></fieldset><br>
+<fieldset><legend>İlgi Alanları</legend><input name="ılgı" type="text" placeholder="Temel Alan"/><br>
+<legend><b>Hobiler</b></legend><tr><td>Kitap Okumak</td><td><input name="kıtap" type="checkbox" value="1"/><br></td></tr>
+<tr><td>Sinemaya Gitmek</td><td><input name="sinema" type="checkbox" value="2"/><br></td></tr>
+<tr><td>Tiyatroya Gitmek</td><td><input name="tiyatr" type="checkbox" value="3"/><br></td></tr>
+<tr><td>Yüzmek</td><td><input name="yuzme" type="checkbox" value="4"/><br></td></tr>
+<tr><td>Spor Yapmak</td><td><input name="spor" type="checkbox" value="5"/><br></td></tr>
+<tr><td>Bilgisayarda Oyun Oynamak</td><td><input name="oyun" type="checkbox" value="6"/><br></td></tr>
+<tr><td>Resim Yapmak</td><td><input name="resim" type="checkbox" value="7"/><br></td></tr></fieldset>
+<fieldset><legend>Akademik Alan Seçiniz</legend><tr><td>Sayısal</td><td><input name="say" type="radio" value="8"/><br></td></tr>
+<tr><td>Sözel</td><td><input name="soz" type="radio" value="9"/><br></td></tr>
+<tr><td>Eşit Ağırlık</td><td><input name="esit" type="radio" value="10"/><br></td></tr>
+<tr><td>Dil Bölümü</td><td><input name="dil" type="radio" value="11"/><br></td></tr>
+<tr><td>Yazılım ve Kodlama</td><td><input name="yzlm" type="radio" value="12"/><br></td></tr>
+<fieldset><legend>Düzeyiniz</legend><tr><td>Düşük</td><td><input name="dsk" type="radio" value="13"/><br></td></tr>
+<tr><td>Orta</td><td><input name="ort" type="radio" value="14"/><br></td></tr>
+<tr><td>Normal</td><td><input name="nrl" type="radio" value="15"/><br></td></tr>
+<tr><td>Üst Seviye</td><td><input name="ust" type="radio" value="16"/><br></td></tr></fieldset>
+<body><form><p style="color:red"><b>Ders Seçiniz</b>
+Favor renginizi seçiniz:
+<br><input type="color" name="favcolor" value="orange"></p>
+<select name="ders"><option>Matematik</option><option>Fizik</option><option>Kimya</option><option>Biyoloji</option><option>Tarih</option>
+<option>Coğrafya</option><option>Edebiyat</option><option>Felsefe</option><option>Sosyoloji</option><option>Mantık</option><option>Temel Dini Bilgiler</option>
+<option>Programlama</option><option>Donanım</option><option>Beden Eğitimi</option></select><br>
+<fieldset><legend>Sayfamız Hakkında Puanınız</legend><input type="range" name="egilim"
+id="egilim_id" oninput="egilim_degeri_id.value=egilim_id.value; egilim_progress_id.value=egilim_id.value;
+egilim_meter_id.value=egilim_id.value" min="0" max="100" value="25" step="5">
+<output name="egilim_degeri" id="egilim_degeri_id"></output><br>
+<meter name="egilim_meter" id="egilim_meter_id" min="0" max="100" value="5"></meter>
+<br><progress name="egilim_progress" id="egilim_progress_id" min="0" max="100"></progress>
+</fieldset>
+<p style="color:turquoise"><b>Görüşleriniz</b></p>
+	<tr><td>Çok Beğendim</td><td><input type="checkbox" name="gorus" value="gorus1"></td></tr><br/><br/>
+	<tr><td>Beğendim</td><td><input type="checkbox" name="gorus" value="gorus2"></td></tr><br/><br/>
+	<tr><td>Fena Değil</td><td><input type="checkbox" name="gorus" value="gorus3"></td></tr><br/><br/>
+	<tr><td>Hİç Beğenmedim</td><td><input type="checkbox" name="gorus" value="gorus4"></td></tr><br/><br/>
+	<input type="submit" name="btn" id="btn" value="Gönder">
+	<input type="submit" name="btt" id="btt" value="Geri Al">
+	<a href="gul.jpg" target="top"><img src="gul.jpg" width="700" height="300" border="3" align="right" title="gül"></a><br><br>
+	<a href="Yalnız Kurt - Dede Korkut Duası - Jenerik Müziği.m4a">Müzik</a>
+	<a href="【TVPP】SHINee - Hello, 샤이니 - 헬로 @ Beautiful Concert Live(_OYv2wyh_kq0_).m4a">POP</a>
+	<a href="Deli Yürek - Jenerik - Orjinal Dizi Müziği.mp3">TÜRKÜ</a>
+	<p style="color:brown"><i><b>İSTEK ve ÖNERİLERİNİZ</b></i></p>
+	<textarea name="dilekler" rows="10" cols="60"></textarea>
+	<br><a href="#top">Yukarı</a><br><a href="3 anasayfa.html">Giriş</a>
+	</form>
+	</body>
+	</html>
